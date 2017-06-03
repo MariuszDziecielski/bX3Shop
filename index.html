@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="zxx"> 
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta name="description" content="bX3 Shop">
+	    <meta name="author" content="Mariusz Dzięcielski">
+	    <title>bX3 Shop</title>	
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
+	    <link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>     
+        <header>
+           <nav class="nav navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">           
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">bX3</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active">
+                                <a href="#">
+                                    <span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home
+                                </a>
+                            </li>         
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                                    <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> Products 
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="#notebooks">Notebooks</a>
+                                    </li>
+                                    <li>
+                                        <a href="#tablets">Tablets</a>
+                                    </li>
+                                    <li>
+                                        <a href="#desktops">Desktops</a>
+                                    </li>
+                                    <li>
+                                        <a href="#motherboards">Motherboards</a>
+                                    </li>
+                                    <li>
+                                        <a href="#graphics_cards">Graphics cards</a>
+                                    </li>       
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Shop
+                                </a>
+                            </li>     
+                            <li>
+                                <a href="#contact_us">
+                                    <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span> Contact
+                                </a>
+                            </li>
+                        </ul>               
+                        <form class="navbar-form navbar-right" role="search">
+                            <div class="form-group">        
+                                <span class="glyphicon glyphicon-search hidden-xs" aria-hidden="true"></span>
+                                <input type="text" class="form-control" placeholder="Search" name="search">
+                            </div>
+                            <button type="submit" class="btn btn-default" name="submit">
+                                <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Submit
+                            </button>
+                        </form>                                                 
+                    </div>
+                </div>
+            </nav>       
+        </header>   
+	    <section class="carousel_">       
+	        <div class="container text-center">
+                <h2 class="hidden">Images</h2>
+                <div id="carousel1" class="carousel slide" data-ride="carousel" data-interval="6000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel1" data-slide-to="1"></li>
+                        <li data-target="#carousel1" data-slide-to="2"></li>
+                        <li data-target="#carousel1" data-slide-to="3"></li>
+                        <li data-target="#carousel1" data-slide-to="4"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active picture-1">                   
+                            <img src="https://images.pexels.com/photos/196660/pexels-photo-196660.jpeg?h=456&auto=compress&cs=tinysrgb" class="img-responsive center-block" alt="">
+                            <div class="carousel-caption">
+                                <h4>Lorem ipsum</h4>
+                                <p>Duis aute irure dolor in velit esse eu fugiat nulla pariatur.</p>   
+                            </div>      
+                        </div>                      
+                        <div class="item picture-2">
+                            <img src="https://images.pexels.com/photos/5598/tablet-galaxy-white-blog.jpg?h=456&auto=compress&cs=tinysrgb" class="img-responsive center-block" alt="">
+                            <div class="carousel-caption">
+                                <h4>Dolor sit</h4>
+                                <p>Sed ut unde omnis iste natus error vitae dicta sunt.</p>
+                            </div>
+                        </div>                               
+                        <div class="item picture-3">
+                            <img src="https://images.pexels.com/photos/35208/office-home-glasses-workspace.jpg?h=456&auto=compress&cs=tinysrgb" class="img-responsive center-block" alt="">
+                            <div class="carousel-caption">
+                                <h4>Nam libero</h4>
+                                <p>Nemo enim ipsam quia eos qui ratione sequi nesciunt. </p>
+                            </div>
+                        </div>
+                        <div class="item picture-4">
+                            <img src="https://images.pexels.com/photos/4316/technology-computer-chips-gigabyte.jpg?h=456&auto=compress&cs=tinysrgb" class="img-responsive center-block" alt="">
+                            <div class="carousel-caption">
+                                <h4>Tempor fugiat</h4>
+                                <p>At vero eos et accusamus et iusto blanditiis sunt in culpa. </p>
+                            </div>
+                        </div>       
+                        <div class="item picture-5">
+                            <img src="https://images.pexels.com/photos/7974/pexels-photo.jpg?h=456&auto=compress&cs=tinysrgb" class="img-responsive center-block" alt="">
+                            <div class="carousel-caption">
+                                <h4>Ut dolore</h4>
+                                <p>Et harum quidem rerum facilis est. Nam voluptas omnis. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#carousel1" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel1" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>        
+	    </section>	    
+	    <section class="tabs_">        
+	        <div class="container text-center">
+                <h2 class="text-muted">
+                    <span class="glyphicon glyphicon-globe" aria-hidden="true"></span> Our products
+                </h2>                
+                <ul class="nav nav-tabs">
+                    <li class="active">
+                        <a data-toggle="tab" href="#notebooks">
+                            Notebooks <span class="badge">27</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a data-toggle="tab" href="#tablets">
+                            Tablets <span class="badge">15</span>&nbsp;<span class="label label-default">New</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a data-toggle="tab" href="#desktops">
+                            Desktops <span class="badge">18</span>
+                        </a>
+                    </li>     
+                    <li>
+                        <a data-toggle="tab" href="#motherboards">
+                            Motherboards <span class="badge">23</span>&nbsp;<span class="label label-default">New</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a data-toggle="tab" href="#graphics_cards">
+                            Graphics cards <span class="badge">25</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div id="notebooks" class="tab-pane fade in active">
+                        <h3 class="text-muted">
+                            <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Notebooks
+                        </h3>            
+                        <img src="https://images.pexels.com/photos/6598/coffee-desk-laptop-notebook.jpg?h=200&auto=compress&cs=tinysrgb" class="img-responsive center-block img-thumbnail" alt="">       
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div id="tablets" class="tab-pane fade">
+                        <h3 class="text-muted">
+                            <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Tablets
+                        </h3>            
+                        <img src="https://images.pexels.com/photos/38544/imac-apple-mockup-app-38544.jpeg?h=200&auto=compress&cs=tinysrgb" class="img-responsive center-block img-thumbnail" alt="">
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    </div>
+                    <div id="desktops" class="tab-pane fade">
+                        <h3 class="text-muted">
+                            <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Desktops  
+                        </h3>           
+                        <img src="https://images.pexels.com/photos/31123/pexels-photo-31123.jpg?h=200&auto=compress&cs=tinysrgb" class="img-responsive center-block img-thumbnail" alt="">
+                        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. </p>
+                    </div>             
+                    <div id="motherboards" class="tab-pane fade">
+                        <h3 class="text-muted">
+                            <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Motherboards
+                        </h3>           
+                        <img src="https://images.pexels.com/photos/163150/technology-computer-metal-industry-163150.jpeg?h=200&auto=compress&cs=tinysrgb" class="img-responsive center-block img-thumbnail" alt="">      
+                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+                    </div>
+                    <div id="graphics_cards" class="tab-pane fade">
+                        <h3 class="text-muted">
+                            <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Graphics cards
+                        </h3>
+                        <img src="https://images.pexels.com/photos/50711/board-electronics-computer-data-processing-50711.jpeg?h=200&auto=compress&cs=tinysrgb" class="img-responsive center-block img-thumbnail" alt="">        
+                        <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.</p>
+                    </div>
+                </div>
+            </div> 
+	    </section>   
+	    <section id="contact_us" class="contact">
+            <div class="container text-center">
+                <h2 class="text-muted">
+                    <span class="glyphicon glyphicon-send" aria-hidden="true"></span> Contact Us
+                </h2>
+                <div class="form">
+                    <form action="script.php" method="post">
+                        <div class="form-group">
+                            <label class="text-muted" for="firstName">First name</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="Your first name" name="fname">
+                        </div>        
+                        <div class="form-group">
+                            <label class="text-muted" for="lastName">Last name</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="Your last name" name="lname">
+                        </div>     
+                        <div class="form-group">
+                            <label class="text-muted" for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your email" name="email_">
+                        </div>       
+                        <div class="form-group">
+                            <label class="text-muted" for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="6" name="message_">Your message</textarea>
+                        </div>
+                        <button type="button" class="btn btn-default" name="submit_">
+                            <span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span> Submit
+                        </button>
+                    </form>   
+                </div>
+            </div>
+        </section>         
+	    <section class="find_us">
+	        <div class="container text-center">
+	            <h2 class="text-muted">
+                    <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Find Us
+                </h2>
+                <div class="panel panel-default">
+                    <div class="panel-body text-center">  
+                        <div class="company_picture">
+                            <img src="https://images.pexels.com/photos/269077/pexels-photo-269077.jpeg?h=300&auto=compress&cs=tinysrgb" class="img-responsive center-block img-thumbnail" alt="">
+		                </div>
+		                <div class="address">
+		                    <h4 class="text-muted">
+                                <span class="glyphicon glyphicon-home" aria-hidden="true"></span> Address:
+                            </h4>
+		                    <p>26 Ocean Street<br>Sunnyvale<br>USA</p>
+		                </div>
+		                <div class="phone">
+		                    <h4 class="text-muted">
+                                <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> Phone:
+                            </h4>
+		                    <p>(408) 753-7070 - Office<br>(408) 753-7080 - Fax</p>
+		                </div>
+		                <div class="email">
+		                    <h4 class="text-muted">
+                                <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Email:
+                            </h4>        
+		                    <p>
+                                <a href="mailto:contact@bX3.com">contact@bX3.com</a>
+		                    </p>
+		                </div> 
+                    </div>
+                </div>
+	        </div> 
+	    </section>         
+	    <section class="cookies">
+	        <div class="container text-center">
+                <h2 class="hidden">Cookies Policy</h2>     
+                <button type="button" class="btn btn-default btn-sm tooltip_" data-toggle="modal" data-target="#modal1">
+                    <span class="glyphicon glyphicon-check" aria-hidden="true"></span> Cookies Policy
+                </button>
+                <div id="modal1" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">               
+                            <div class="modal-header">
+                                <h4>
+                                    <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> How do we use cookies?
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sequi, hic iure, laboriosam in sapiente obcaecati distinctio fuga. Nam in facilis facere quaerat repudiandae porro, dolore explicabo nisi atque nesciunt.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <p>
+                                    <strong>bX3 Team</strong>
+                                </p>
+                                <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">
+                                    <span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span> Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+	        </div> 
+	    </section>   
+        <footer>
+            <div class="container text-center">
+                <p>bX3 Copyright &copy; 2017 All&nbsp;rights&nbsp;reserved</p>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/scripts.js"></script>
+	</body>
+</html>

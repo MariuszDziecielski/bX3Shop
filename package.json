@@ -1,0 +1,29 @@
+{
+  "name": "bX3_shop",
+  "version": "1.0.0",
+  "description": "bX3 Shop",
+  "main": "js/scripts.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MariuszDziecielski/bX3_shop.git"
+  },
+  "keywords": [
+    "grunt"
+  ],
+  "author": "Mariusz Dziecielski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariuszDziecielski/bX3_shop/issues"
+  },
+  "homepage": "https://github.com/MariuszDziecielski/bX3_shop#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  }
+}
