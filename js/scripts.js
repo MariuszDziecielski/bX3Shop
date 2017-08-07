@@ -1,5 +1,5 @@
 $(function () {
-    var $listItems = $('.navbar-collapse li'),
+    const $listItems = $('.navbar-collapse li'),
         $navbarHeader = $('.navbar-header');
     $('.nav-tabs li:nth-child(2), .nav-tabs li:nth-child(4)').tooltip({
         title: "We have new products!",
@@ -16,17 +16,19 @@ $(function () {
         placement: "top",
         trigger: "hover"
     });
+    function removeActiveClass() {
+        $listItems.removeClass('active');
+        $navbarHeader.removeClass('active');
+    }
     $('.navbar-collapse a:not(.dropdown-toggle)').click(function () {
         if ($('.navbar-collapse').hasClass('in')) {
             $('.navbar-toggle').click();
         }
-        $listItems.removeClass('active');
-        $navbarHeader.removeClass('active');
+        removeActiveClass();
         $(this).parent().addClass('active');
     });
     $('.dropdown .dropdown-toggle').click(function () {
-        $listItems.removeClass('active');
-        $navbarHeader.removeClass('active');
+        removeActiveClass();
     });
     $('.dropdown-menu a').click(function () {
         $('a[href="' + $(this).attr('href') + '"]').tab('show');
