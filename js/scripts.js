@@ -27,11 +27,11 @@ $(function () {
         removeActiveClass();
         $(this).parent().addClass('active');
     });
-    $('.dropdown .dropdown-toggle').click(function () {
+    $('.dropdown .dropdown-toggle').click(() => {
         removeActiveClass();
     });
     $('.dropdown-menu a').click(function () {
-        $('a[href="' + $(this).attr('href') + '"]').tab('show');
+        $(`a[href="${$(this).attr('href')}"]`).tab('show');
         $(this).parent().removeClass('active');
     });
     $('.navbar-header a').click(function () {
