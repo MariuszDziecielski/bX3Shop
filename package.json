@@ -2,7 +2,7 @@
   "name": "bX3_shop",
   "version": "1.0.0",
   "description": "bX3 Shop",
-  "main": "js/scripts.js",
+  "main": "js/script.js",
   "scripts": {
     "test": "test"
   },
