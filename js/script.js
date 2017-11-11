@@ -19,21 +19,21 @@ function removeActiveClass() {
     $listItems.removeClass('active');
     $navbarHeader.removeClass('active');
 }
-$('.navbar-collapse a:not(.dropdown-toggle)').click(function () {
+$('.navbar-collapse a:not(.dropdown-toggle)').click(e => {
     if ($('.navbar-collapse').hasClass('in')) {
         $('.navbar-toggle').click();
     }
     removeActiveClass();
-    $(this).parent().addClass('active');
+    $(e.target).parent().addClass('active');
 });
 $('.dropdown .dropdown-toggle').click(() => {
     removeActiveClass();
 });
-$('.dropdown-menu a').click(function () {
-    $(`a[href="${$(this).attr('href')}"]`).tab('show');
-    $(this).parent().removeClass('active');
+$('.dropdown-menu a').click(e => {
+    $(`a[href="${$(e.target).attr('href')}"]`).tab('show');
+    $(e.target).parent().removeClass('active');
 });
-$('.navbar-header a').click(function () {
-    $(this).parent().addClass('active');
+$('.navbar-header a').click(e => {
+    $(e.target).parent().addClass('active');
     $listItems.removeClass('active');
 });
