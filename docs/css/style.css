@@ -1,0 +1,87 @@
+/* header */
+header nav .container .navbar-header .navbar-brand {
+  font: bold 18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header nav .container .active .navbar-brand {
+  background-color: #e7e7e7;
+}
+
+header nav .container .navbar-collapse form .form-group .form-control {
+  max-width: 130px;
+}
+
+/* section */
+section {
+  margin: 50px auto;
+}
+
+section .container .hidden {
+  display: none;
+}
+
+section .container h2 {
+  display: block;
+  margin: 0 0 45px;
+}
+
+/* carousel_ */
+.carousel_ .container #carousel1 .carousel-inner .carousel-caption {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.carousel_ .container #carousel1 .carousel-inner .carousel-caption p {
+  font-size: 12px;
+}
+
+/* tabs_ */
+.tabs_ .container .tab-content h3 {
+  margin: 40px auto;
+}
+
+.tabs_ .container .tab-content img {
+  margin: 20px auto;
+}
+
+.tabs_ .container .tab-content p {
+  margin: 40px 30px 0;
+}
+
+/* contact */
+.contact .container .form form .form-group {
+  margin-bottom: 25px;
+}
+
+.contact .container .form form .form-group label {
+  margin-bottom: 15px;
+}
+
+/* find_us */
+.find_us {
+  margin-bottom: 0;
+}
+
+.find_us .container .panel .panel-body div {
+  margin: 35px auto;
+  line-height: 26px;
+}
+
+.find_us .container .panel .panel-body div img {
+  margin: 15px auto;
+}
+
+/* cookies */
+.cookies {
+  margin: 15px 0 35px;
+}
+
+/* footer */
+footer {
+  padding: 5px;
+  line-height: 40px;
+  background-color: #f8f8f8;
+  color: #888888;
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
